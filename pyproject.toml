@@ -1,0 +1,14 @@
+[project]
+name = "compiler_opt_env"
+version = "0.1.0"
+description = "Reasoning Grid for Meta Hackathon"
+dependencies = [
+    "openenv-core",
+    "gymnasium",
+    "pydantic",
+    "numpy",
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
